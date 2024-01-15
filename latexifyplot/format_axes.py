@@ -11,7 +11,7 @@ parser.add_argument('-f','--figure', help='Figure to generate ("xy", None for al
 parser.add_argument('-l','--latex', help='Produce output for LaTex docs', type=int, default=1)
 args = parser.parse_args()
 
-
+SPINE_COLOR = 'gray'
 
 def format_axes(ax):
   if args.latex:
