@@ -1,8 +1,8 @@
-# latexify_package/pyproject.toml
+
 
 [tool.poetry]
 name = "latexifyplot"
-version = "0.1.2"
+version = "0.1.3"
 description = "A package for latexify and format_axes functions"
 authors = ["Prince Kumar <princekumar88044@email.com>"]
 
