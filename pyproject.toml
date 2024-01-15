@@ -1,0 +1,16 @@
+# latexify_package/pyproject.toml
+
+[tool.poetry]
+name = "latexifyplot"
+version = "0.1.0"
+description = "A package for latexify and format_axes functions"
+authors = ["Prince Kumar <princekumar88044@email.com>"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.7, <4.0"
+
+[tool.poetry.dev-dependencies]
