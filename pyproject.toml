@@ -2,7 +2,7 @@
 
 [tool.poetry]
 name = "latexifyplot"
-version = "0.1.1"
+version = "0.1.2"
 description = "A package for latexify and format_axes functions"
 authors = ["Prince Kumar <princekumar88044@email.com>"]
 

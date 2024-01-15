@@ -1,5 +1,15 @@
-import math
+import matplotlib.pyplot as plt
+import numpy as np
+
 import matplotlib
+import math
+
+import argparse
+
+parser = argparse.ArgumentParser(description='')
+parser.add_argument('-f','--figure', help='Figure to generate ("xy", None for all)', type=str, default=None)
+parser.add_argument('-l','--latex', help='Produce output for LaTex docs', type=int, default=1)
+args = parser.parse_args()
 
 
 
